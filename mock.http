@@ -1,0 +1,8 @@
+### query
+GET http://localhost:3000/api/todo HTTP/1.1
+
+### insert
+POST http://localhost:3000/api/todo HTTP/1.1
+Content-Type: application/json
+
+{"message": "do something"}
